@@ -1,0 +1,37 @@
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.actionButton {
+    background-color: brown;
+    border: 0px;
+    padding: 8px 15px;
+    cursor: pointer;
+    color: white;
+}
+
+#topBanner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 5px;
+}
+
+#registrationContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#registrationContainer input{
+    padding: 10px 300px 5px 5px;
+}
