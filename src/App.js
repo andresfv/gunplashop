@@ -1,9 +1,9 @@
 import logo from './logo.png';
 import './App.css';
-import './Font.css';
 import Banner from './components/Banner';
 import SearchProductTxt from './components/SearchProductTxt';
 import ProductsGrid from './components/products/ProductsGrid';
+import ChatBtn from './components/ChatBtn';
 import { useEffect, useState } from 'react';
 
 
@@ -22,9 +22,7 @@ function App() {
     <div className="App">
       <div id="mainContainer">
 
-      <a href="https://www.unimart.com/pages/contactanos" target="_blank" className="btn-chat"> 
-        <i class="gg-comment"></i>
-    </a>
+        <ChatBtn/>
 
         <Banner />
 
