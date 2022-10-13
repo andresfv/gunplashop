@@ -1,0 +1,28 @@
+
+.footerP {
+    text-align: center;
+    font-size: small;
+}
+
+.footerTitle {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.separatorSpace {
+    margin: 0px 10px;
+}
+
+#contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 5px;
+}

@@ -1,3 +1,4 @@
+import './Banner.css';
 function Banner ({homeUrl='#', cartUrl='#', accountUrl='#'}){
     return(
         <div className="topBanner">

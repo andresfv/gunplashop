@@ -7,87 +7,9 @@
   font-family: 'Oswald', sans-serif;
 }
 
-.actionButton {
-  background-color: brown;
-  border: 0px;
-  padding: 8px 15px;
-  cursor: pointer;
-  position: relative;
-}
-
-.navButtons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  margin-left: 1700px;
-  gap: 5px;
-}
-
-.topBanner{
-  width: 100%;
-}
-
-.logoBanner{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#searchContainer {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.searchTxt{
-  padding: 10px 600px 5px 5px
-}
-
-.productsGrid{
-  display: grid;
-  flex-wrap: wrap;
-  grid-template-columns: auto auto auto auto;
-  gap: 10px;
-}
-
-.productItem {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.itemName {
-  font-weight: bold;
-}
-
-.outStock {
-  color: red;
-}
-
-.available {
-  color: green;
-}
 
 
-/* BOTON CHAT */
-.btn-chat{
-  display: flex;
-  justify-content: center;
-  padding-top: 15px;
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  bottom: 20px;
-  right: 30px;
-  background-color: brown;
-  color: white;
-  border-radius: 10px;
-  text-align: center;
-}
+
+
+
+

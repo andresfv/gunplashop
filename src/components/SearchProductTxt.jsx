@@ -1,3 +1,4 @@
+import './SearchProductTxt.css';
 function SearchProductTxt({ }) {
     return (
         <div id="searchContainer">

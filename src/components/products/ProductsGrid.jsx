@@ -1,4 +1,5 @@
 import ProductItem from './ProductItem';
+import './ProductsGrid.css';
 
 function ProductsGrid({ id, source }) {
     return (

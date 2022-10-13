@@ -1,0 +1,19 @@
+.productItem {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .itemName {
+    font-weight: bold;
+  }
+  
+  .outStock {
+    color: red;
+  }
+  
+  .available {
+    color: green;
+  }

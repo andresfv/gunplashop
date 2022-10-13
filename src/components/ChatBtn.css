@@ -28,8 +28,8 @@
     position: relative;
     display: block;
     transform: scale(var(--ggs,1));
-    width: 35px;
-    height: 30px;
+    width: 30px;
+    height: 25px;
     border: 2px solid;
     border-bottom: 0;
     box-shadow:
@@ -62,3 +62,21 @@
     left: 4px;
     top: 4px
 }
+
+
+/* BOTON CHAT */
+.btn-chat{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    position: fixed;
+    width: 50px;
+    height: 45px;
+    line-height: 55px;
+    bottom: 20px;
+    right: 30px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+  }

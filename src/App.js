@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import SearchProductTxt from './components/SearchProductTxt';
 import ProductsGrid from './components/products/ProductsGrid';
 import ChatBtn from './components/ChatBtn';
+import FooterPage from './components/FooterPage';
 import { useEffect, useState } from 'react';
 
 
@@ -29,6 +30,8 @@ function App() {
         <SearchProductTxt />
 
         <ProductsGrid id={'productsOnSaleGrid'} source={data} />
+
+      <FooterPage/>
       </div>
     </div>
   );

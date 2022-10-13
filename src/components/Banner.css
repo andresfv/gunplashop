@@ -1,0 +1,28 @@
+.actionButton {
+    background-color: brown;
+    border: 0px;
+    padding: 8px 15px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .navButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin-left: 1700px;
+    gap: 5px;
+  }
+  
+  .topBanner{
+    width: 100%;
+  }
+  
+  .logoBanner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
