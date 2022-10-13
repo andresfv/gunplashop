@@ -1,0 +1,15 @@
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  
+  
+  
+  
+  
+  
