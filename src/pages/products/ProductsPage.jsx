@@ -1,12 +1,8 @@
-import './Home.css';
-import Banner from '../components/Banner'
-import SearchProductTxt from '../components/SearchProductTxt';
-import ProductsGrid from '../components/products/ProductsGrid';
-import ChatBtn from '../components/ChatBtn';
-import FooterPage from '../components/FooterPage';
+import SearchProductTxt from '../../components/SearchProductTxt';
+import ProductsGrid from '../../components/products/ProductsGrid';
 import { useEffect, useState } from 'react';
 
-function Home(params) {
+function Products() {
     const [data, setData] = useState([]);
     useEffect(() => {
         fetch(process.env.REACT_APP_API_URL + "/api/products?populate=*").then(x => x.json()).then(json => {
@@ -18,19 +14,12 @@ function Home(params) {
     }, []);
 
     return (
-        <div id="mainContainer">
-
-            <ChatBtn />
-
-            <Banner />
-
+        <div>
             <SearchProductTxt />
-
             <ProductsGrid id={'productsOnSaleGrid'} source={data} />
-
-            <FooterPage />
         </div>
+
     );
 }
 
-export default Home;
+export default Products;
