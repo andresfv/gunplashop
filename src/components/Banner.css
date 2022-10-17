@@ -1,5 +1,6 @@
 .actionButton {
     background-color: brown;
+    margin-top: 15px;
     border: 0px;
     padding: 8px 15px;
     cursor: pointer;

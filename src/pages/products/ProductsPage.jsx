@@ -1,5 +1,6 @@
 import SearchProductTxt from '../../components/SearchProductTxt';
 import ProductsGrid from '../../components/products/ProductsGrid';
+import FooterPage from '../../components/FooterPage';
 import { useEffect, useState } from 'react';
 
 function Products() {
@@ -17,6 +18,7 @@ function Products() {
         <div>
             <SearchProductTxt />
             <ProductsGrid id={'productsOnSaleGrid'} source={data} />
+            <FooterPage />
         </div>
 
     );

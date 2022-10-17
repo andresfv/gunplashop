@@ -1,13 +1,13 @@
-import './Home.css';
+import './MainFrame.css';
 
 import Banner from '../../components/Banner'
 import ProductsPage from '../products/ProductsPage';
 import LoginPage from '../login/LoginPage';
 import ChatBtn from '../../components/ChatBtn';
-import FooterPage from '../../components/FooterPage';
+
 import { BrowserRouter, Link, Routes, Route, Outlet } from 'react-router-dom';
 
-function Home(params) {
+function MainFrame(params) {
 
 
     return (
@@ -24,9 +24,9 @@ function Home(params) {
                     <Route path="*" element={<h1>NO HAY PANTALLA</h1>}></Route>
                 </Routes>
 
-                <Outlet></Outlet>
+                
 
-                <FooterPage />
+              
 
 
 
@@ -35,4 +35,4 @@ function Home(params) {
     );
 };
 
-export default Home;
+export default MainFrame;
