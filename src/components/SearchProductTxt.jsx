@@ -6,7 +6,7 @@ function SearchProductTxt({ }) {
             <input className="searchTxt" type="text" name="q" id="busqueda"
                 placeholder="Estoy Buscando..." />
 
-            <button className="actionButton">
+            <button className="searchButton">
                 <img src="/page/lupa.png" alt="lupa" height="17px" />
             </button>
             

@@ -1,4 +1,4 @@
-#loginContainer{
+#registrationContainer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -13,7 +13,7 @@
     padding: 10px 300px 5px 5px;
 }
 
-.actionButtonLogin {
+.actionButtonReg {
     background-color: brown;
     border: 0px;
     padding: 8px 15px;

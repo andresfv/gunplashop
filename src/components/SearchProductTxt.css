@@ -9,3 +9,11 @@
   .searchTxt{
     padding: 10px 600px 5px 5px
   }
+
+  .searchButton {
+    background-color: brown;
+    border: 0px;
+    padding: 8px 15px;
+    cursor: pointer;
+    position: relative;
+  }

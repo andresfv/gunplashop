@@ -1,6 +1,7 @@
 import React from "react";
 import '../login/LoginPage.css';
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 
 function LoginPage(params) {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
@@ -18,9 +19,15 @@ function LoginPage(params) {
 
                     <label htmlFor="password">PASSWORD</label>
                     <input type="password" {...register("password", { required: true })} className="input" />
+                    <Link to={"/"}>Forgot your password?</Link>
                 </div>
+            
                 <input type={"submit"} value="ACCEDER" className="actionButtonLogin" />
+                <Link to="/registration">
+                <input type={"button"} value="REGISTRATE" className="actionButtonLogin" />
+                </Link>
             </form >
+
         </div >
     )
 };
