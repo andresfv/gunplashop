@@ -16,9 +16,12 @@ function LoginPage(params) {
                 <div id="loginContainer">
                     <label htmlFor="username">USERNAME</label>
                     <input type="text" {...register("username", { required: true })} className="input" />
+                    {errors.name?.type === 'required' && "This field is required"}
 
                     <label htmlFor="password">PASSWORD</label>
                     <input type="password" {...register("password", { required: true })} className="input" />
+                    {errors.name?.type === 'required' && "This field is required"}
+                    
                     <Link to={"/"}>Forgot your password?</Link>
                 </div>
             
