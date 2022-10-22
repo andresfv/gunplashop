@@ -1,10 +1,10 @@
 import './MainFrame.css';
 
-import Banner from '../../components/Banner'
+import Banner from '../../components/banner/Banner'
 import ProductsPage from '../products/ProductsPage';
 import LoginPage from '../login/LoginPage';
 import RegistrationPage from '../registration/RegistrationPage';
-import ChatBtn from '../../components/ChatBtn';
+import ChatBtn from '../../components/chatBtn/ChatBtn';
 
 import { BrowserRouter, Link, Routes, Route, Outlet } from 'react-router-dom';
 

@@ -1,12 +1,17 @@
-import logo from './logo.png';
+
 import './App.css';
 import MainFrame from './pages/home/MainFrame';
+//redux
+import { Provider } from 'react-redux';
+import store from './store';
 
 function App() {
   return (
+    <Provider store={store}>
       <div className="App">
-        <MainFrame/>
+        <MainFrame />
       </div>
+    </Provider>
   );
 }
 

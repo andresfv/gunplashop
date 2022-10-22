@@ -1,11 +1,12 @@
-import ProductItem from './ProductItem';
+import ProductItem from '../productItem/ProductItem';
 import './ProductsGrid.css';
 
 function ProductsGrid({ id, source }) {
     return (
         <div id={id} className="productsGrid">
+
             {source.map(item => (
-                <ProductItem key={item.id} imageURL={item.imageURL} name={item.name} available={item.available} price={item.price}/>
+                <ProductItem key={item.id} imageURL={item.imageURL} name={item.name} available={item.available} price={item.price} />
             ))}
         </div>
     );
