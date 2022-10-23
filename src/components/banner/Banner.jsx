@@ -1,6 +1,6 @@
 import './Banner.css';
 import { Link } from "react-router-dom";
-function Banner({ homeUrl = '#', cartUrl = '#', accountUrl = '#' }) {
+function Banner(props) {
     return (
         <div className="topBanner">
             <div className="navButtons">
@@ -11,7 +11,7 @@ function Banner({ homeUrl = '#', cartUrl = '#', accountUrl = '#' }) {
                     </button>
                 </Link>
 
-                <button className="actionButton">
+                <button className="actionButton" onClick={(e)=>{e.preventDefault(); props.onCartClick()}}>
                     <img src="/page/cart logo.png" alt="cart" height="20px" />
                 </button>
                 <Link to="/login">
